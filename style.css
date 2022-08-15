@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header1{ 
+margin-top: 115px;
+}
+#header1 h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 80px;
+/* or 125% */
+
+
+color: #000000;
+}
+#header1 p{
+    margin-top: 40px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+color: #8F95A5;
+}
+#header1 button{
+    padding: 25px 100px;
+    margin-top: 61px;
+    background: #263238;
+border-radius: 15px;
+}
+#header2{ 
+margin-top: 75px;
+}
+.skllis h1{
+    margin-top: 160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    /* identical to box height, or 167% */
+    
+    
+    color: #000000;
+}
+.container1 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "vertical col1 col2"
+      "vertical horizontal horizontal";
+  }
+  .container1 div {
+    background: #F5F5F5;
+    border-radius: 10px;
+  
+  }
+  .container1 div p {
+    padding: 0 10px;
+  }
+  .container1 div img {
+   object-fit: cover;
+
+
+  }
+  .vertical { grid-area: vertical;
+ 
+}
+.vertical h1{
+    margin-top: 49px;
+}
+.vertical p{
+    margin-top: 10px;
+}
+.vertical button{
+    margin-top: 20px;
+}
+  
+  .horizontal { grid-area: horizontal; 
+padding-top: 13%;
+}
+.horizontal p{
+    margin-top: 75px;
+}
+.horizontal button{
+    margin-top: 25px;
+}
+  
+  .col1 { grid-area: col1;
+
+}
+  
+  .col2 { grid-area: col2;
+
+}
+  
+
+#kk{
+    margin-top: 350px;
+}
+#ll h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    /* identical to box height, or 167% */
+    
+    
+    color: #000000;
+    
+}
+#ll p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #8F95A5;
+
+}
+#yy h1{
+padding: 0 60px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+/* identical to box height, or 167% */
+
+
+color: #2A3246;
+}
+#yj h1{
+    padding: 0 20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+font-size: 20px;
+
+
+color: #8F95A5;
+}
+#yk{
+    margin-top: 222px;
+
+}
+#yk h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    /* identical to box height, or 167% */
+    
+    
+    color: #000000;
+    
+}
+.self{
+   margin-top: 83px;
+}
+.self-card h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height, or 160% */
+    
+    
+    color: #263238;
+}
+
+.self-card p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #8F95A5;
+}
+
+.self-card button{
+border-radius: 5px;
+color: #263238;
+background: #EEEEEE;
+border: none;
+   
+}
+
+.self-card1{
+   
+}
+
+.self-card1 h1{
+margin-top: 28px;    
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height, or 160% */
+    
+    
+    color: #263238;
+}
+
+.self-card1 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #8F95A5;
+}
+
+.self-card1 button{
+    margin-top: 25px;
+    background: #EEEEEE;
+    border-radius: 5px;
+    color: #263238;
+    border: none;
+}
+
+.self-card2{
+
+}
+.self-card2 h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height, or 160% */
+    
+    
+    color: #263238;
+}
+
+.self-card2 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #8F95A5;
+}
+.self-card2 button{
+    background: #EEEEEE;
+    border-radius: 5px;
+    color: #263238;
+    border: none;
+}
+.contact{
+    margin-top: 261px;
+}
+#yj h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+/* identical to box height, or 167% */
+
+
+color: #000000;
+
+}
+#yh p{
+margin-top: 37px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #8F95A5;
+}
+#yh button{
+    margin-top: 52px;
+border-radius: 10px
+}
+#buton1{
+padding: 18px 110px;
+}
+#buton2{
+    margin-left: 12px;
+    padding: 18px 70px;
+}
+#hrr{
+    margin-top: 165px;
+}
+.foter{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.sdf h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #8F95A5;
+}
+
+
+
+
+
+
+
+
+
